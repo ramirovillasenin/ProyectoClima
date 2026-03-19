@@ -1,4 +1,4 @@
-# 🌤️ ProyectoCLima
+# 🌤️ WEATHER APP API
 
 A REST API built with **Spring Boot** that returns the current weather for any city in the world, combining the geocoding API and the meteorological API from [Open-Meteo](https://open-meteo.com/).
 
@@ -91,17 +91,17 @@ curl "http://localhost:8080/clima?ciudad=Tokyo"
 
 ```json
 {
-  "ciudad": "Buenos Aires",
-  "temperatura": 24.5,
-  "viento": 12.3
+  "city": "Buenos Aires",
+  "temperature": 24.5,
+  "wind": 12.3
 }
 ```
 
 | Field | Type | Description |
 |---|---|---|
-| `ciudad` | String | Name of the queried city |
-| `temperatura` | double | Current temperature in °C |
-| `viento` | double | Wind speed in km/h |
+| `city` | String | Name of the queried city |
+| `temperature` | double | Current temperature in °C |
+| `wind` | double | Wind speed in km/h |
 
 ### Error — city not found
 
