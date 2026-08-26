@@ -1,10 +1,10 @@
-# 🌤️ WEATHER APP API
+# WEATHER APP API
 
 A REST API built with **Spring Boot** that returns the current weather for any city in the world, combining the geocoding API and the meteorological API from [Open-Meteo](https://open-meteo.com/).
 
 ---
 
-## 📋 Description
+## Description
 
 The user sends a city name and the API returns the current temperature and wind speed. Internally, the system makes two calls:
 
@@ -13,7 +13,7 @@ The user sends a city name and the API returns the current temperature and wind 
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - Java 17+
 - Spring Boot 3.x
@@ -23,7 +23,7 @@ The user sends a city name and the API returns the current temperature and wind 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/main/java/org/ramiro/clima/
@@ -43,7 +43,7 @@ src/main/java/org/ramiro/clima/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -71,7 +71,7 @@ cd ProyectoCLima
 
 ---
 
-## 📡 API Usage
+## API Usage
 
 ### Endpoint
 
@@ -114,7 +114,7 @@ curl "http://localhost:8080/clima?ciudad=Tokyo"
 
 ---
 
-## 🔄 Internal Flow
+## Internal Flow
 
 ```
 Client
@@ -128,7 +128,7 @@ Client
 
 ---
 
-## 📌 Notes
+## Notes
 
 - The Open-Meteo API is **free and requires no API key**.
 - Temperature is returned in **°C** and wind speed in **km/h** (Open-Meteo default settings).
@@ -136,6 +136,6 @@ Client
 
 ---
 
-## 👤 Author
+## Author
 
 **Ramiro** — [@ramirovillasenin](https://github.com/ramirovillasenin)
